@@ -15,6 +15,7 @@ namespace DelLogs
     public class Class1 : IExternalApplication
     {
 
+
         private Timer logTimer;
         private List<Tuple<string, string, int, string>> deletionLogBuffer = new List<Tuple<string, string, int, string>>();
         private readonly string sharedFolderPath = @"\\sb-sharegp\Bim2.0\5. Скрипты\999. BIM-отдел\RevitAutomation\DeleteLog";
